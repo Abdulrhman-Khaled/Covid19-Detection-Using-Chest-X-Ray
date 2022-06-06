@@ -1,8 +1,11 @@
 # Covid19-Detection-Using-Chest-X-Ray
 # Overview
 There are several algorithms belonging to the Convolutional Neural Networks (CNN) that can be used to create a model that identifies and detects the possibility of lung infection with the Corona virus by applying some operations to the x-ray images of the chest.
+
 As we mentioned, there are some algorithms such as VGG16, ResNet50, InceptionV3, Xception and others, and in this respect we have relied on the InceptionV3 algorithm, where the model is trained using the InceptionV3 algorithm over 500 epochs on about 2000 chest x-rays.
+
 Inception-V3 is a convolutional neural network that is 48 layers deep, and you can load a pretrained version of the network trained on more than a million images from the ImageNet database, The pretrained network can classify images into 1000 object categories, such as keyboard, mouse, pencil, and many animals, as a result, the network has learned rich feature representations for a wide range of images, the network has an image input size of 299x299.
+
 After we trained the model, we created a Flask API, an Android application, and a web application, the Flask API receives an image from the site or application of the chest x-ray in the form of Base64 and converts it to an image again and then performs the necessary operations to determine whether the lung is infected with the Corona virus or not, then it send the result to the application or website in the form of a Json file which contain the state and percentage value of the state.
 
 # Dataset Used
