@@ -8,8 +8,8 @@ After we trained the model, we created a Flask API, an Android application, and 
 # Dataset Used
 The dataset for the project was gathered from two sources:
 
-1-Positive Covid-19 Chest X-ray images: https://github.com/ieee8023/covid-chestxray-dataset
-2-Negative Covid-19 Chest X-ray images: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia?resource=download
+- Positive Covid-19 Chest X-ray images: https://github.com/ieee8023/covid-chestxray-dataset
+- Negative Covid-19 Chest X-ray images: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia?resource=download
 
 
 # Methodology of the project
