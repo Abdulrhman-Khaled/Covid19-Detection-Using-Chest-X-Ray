@@ -1,4 +1,4 @@
-# Covid19-Detection-Using-Chest-X-Ray
+# Covid19 Detection Using Chest X-Ray
 # Overview
 There are several algorithms belonging to the Convolutional Neural Networks (CNN) that can be used to create a model that identifies and detects the possibility of lung infection with the Corona virus by applying some operations to the x-ray images of the chest.
 
